@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-        system.out.println("Enter your input String ");
+        System.out.println("Enter your input String ");
         Scanner scanner = new Scanner(System.in);
         String userName = scanner.nextLine().trim();
         System.out.println("welcome" + userName + "!");
